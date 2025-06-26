@@ -129,10 +129,10 @@ export function VirtualList({ keys, loading, loadMore, hasMore, totalVirtualKeys
   if (keys.length === 0 && loading) {
     return (
       <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors">
-        <div className="flex items-center justify-center py-16">
+        <div className="flex items-center justify-center py-12 sm:py-16">
           <div className="flex items-center space-x-3">
-            <Loader2 className="w-6 h-6 text-orange-500 animate-spin" />
-            <span className="text-gray-600 dark:text-gray-300">{t('generating')}</span>
+            <Loader2 className="w-5 h-5 sm:w-6 sm:h-6 text-orange-500 animate-spin" />
+            <span className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">{t('generating')}</span>
           </div>
         </div>
       </div>
@@ -142,12 +142,12 @@ export function VirtualList({ keys, loading, loadMore, hasMore, totalVirtualKeys
   if (keys.length === 0) {
     return (
       <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg transition-colors">
-        <div className="text-center py-16">
+        <div className="text-center py-12 sm:py-16 px-4">
           <div className="text-gray-400 dark:text-gray-500 mb-4">
-            <Loader2 className="w-12 h-12 mx-auto" />
+            <Loader2 className="w-10 h-10 sm:w-12 sm:h-12 mx-auto" />
           </div>
-          <h3 className="text-lg font-medium text-gray-900 dark:text-white mb-2">{t('noKeysAvailable')}</h3>
-          <p className="text-gray-600 dark:text-gray-300">
+          <h3 className="text-base sm:text-lg font-medium text-gray-900 dark:text-white mb-2">{t('noKeysAvailable')}</h3>
+          <p className="text-gray-600 dark:text-gray-300 text-sm sm:text-base">
             {t('unableToLoad')}
           </p>
         </div>
@@ -159,7 +159,7 @@ export function VirtualList({ keys, loading, loadMore, hasMore, totalVirtualKeys
     <div className="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden transition-colors">
       <div
         ref={containerRef}
-        className="h-[600px] overflow-auto"
+        className="h-[500px] sm:h-[600px] overflow-auto"
         onScroll={handleScroll}
         style={{ scrollBehavior: 'auto' }}
       >
@@ -198,28 +198,28 @@ export function VirtualList({ keys, loading, loadMore, hasMore, totalVirtualKeys
         {loading && hasMore && (
           <div 
             ref={loadingRef} 
-            className="flex items-center justify-center py-4 border-t border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800"
+            className="flex items-center justify-center py-3 sm:py-4 border-t border-gray-100 dark:border-gray-700 bg-white dark:bg-gray-800"
             style={{ 
               position: 'sticky',
               bottom: 0,
               zIndex: 10
             }}
           >
-            <div className="flex items-center space-x-3">
-              <Loader2 className="w-5 h-5 text-orange-500 animate-spin" />
-              <span className="text-gray-600 dark:text-gray-300 text-sm">{t('loadingMore')}</span>
+            <div className="flex items-center space-x-2 sm:space-x-3">
+              <Loader2 className="w-4 h-4 sm:w-5 sm:h-5 text-orange-500 animate-spin" />
+              <span className="text-gray-600 dark:text-gray-300 text-xs sm:text-sm">{t('loadingMore')}</span>
             </div>
           </div>
         )}
       </div>
       
       {/* Status bar */}
-      <div className="px-4 py-2 bg-gray-50 dark:bg-gray-700 text-xs text-gray-500 dark:text-gray-400 border-t flex items-center justify-between transition-colors">
-        <span>
+      <div className="px-3 sm:px-4 py-2 bg-gray-50 dark:bg-gray-700 text-xs text-gray-500 dark:text-gray-400 border-t flex items-center justify-between transition-colors">
+        <span className="truncate">
           {t('showing')} {startIndex + 1}-{Math.min(endIndex + 1, keys.length)} {t('of')} {keys.length} {t('loadedKeys')}
         </span>
         {!hasMore && keys.length > 0 && (
-          <span className="text-orange-600 dark:text-orange-400 font-medium">{t('searchResults')}</span>
+          <span className="text-orange-600 dark:text-orange-400 font-medium text-xs whitespace-nowrap ml-2">{t('searchResults')}</span>
         )}
       </div>
     </div>

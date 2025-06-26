@@ -21,8 +21,8 @@ export type TranslationKey =
 
 export const translations: Record<Language, Record<TranslationKey, string>> = {
   en: {
-    title: 'Every Bitcoin Private Key',
-    subtitle: 'Educational demonstration of Bitcoin key generation',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'In case you leak yours',
     educationalPurpose: 'For educational purposes only',
     viewSource: 'View source code',
     language: 'Language',
@@ -80,8 +80,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Done'
   },
   id: {
-    title: 'Setiap Kunci Pribadi Bitcoin',
-    subtitle: 'Demonstrasi edukatif pembuatan kunci Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Kalau-kalau kamu membocorkan punyamu',
     educationalPurpose: 'Hanya untuk tujuan edukasi',
     viewSource: 'Lihat kode sumber',
     language: 'Bahasa',
@@ -139,8 +139,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Selesai'
   },
   ca: {
-    title: 'Cada Clau Privada de Bitcoin',
-    subtitle: 'Demostració educativa de generació de claus Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Per si de cas filtres el teu',
     educationalPurpose: 'Només amb finalitats educatives',
     viewSource: 'Veure codi font',
     language: 'Idioma',
@@ -198,8 +198,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Fet'
   },
   da: {
-    title: 'Hver Bitcoin Private Nøgle',
-    subtitle: 'Uddannelsesmæssig demonstration af Bitcoin nøglegenerering',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Hvis du skulle lække din egen',
     educationalPurpose: 'Kun til uddannelsesmæssige formål',
     viewSource: 'Se kildekode',
     language: 'Sprog',
@@ -257,8 +257,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Færdig'
   },
   de: {
-    title: 'Jeder Bitcoin Private Key',
-    subtitle: 'Bildungsdemonstration der Bitcoin-Schlüsselgenerierung',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Falls du deine durchsickern lässt',
     educationalPurpose: 'Nur für Bildungszwecke',
     viewSource: 'Quellcode anzeigen',
     language: 'Sprache',
@@ -317,8 +317,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
 
   es: {
-    title: 'Cada Clave Privada de Bitcoin',
-    subtitle: 'Demostración educativa de generación de claves de Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Por si acaso filtras el tuyo',
     educationalPurpose: 'Solo para fines educativos',
     viewSource: 'Ver código fuente',
     language: 'Idioma',
@@ -377,8 +377,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
 
   fr: {
-    title: 'Chaque Clé Privée Bitcoin',
-    subtitle: 'Démonstration éducative de génération de clés Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Au cas où tu fuites le tien',
     educationalPurpose: 'À des fins éducatives uniquement',
     viewSource: 'Voir le code source',
     language: 'Langue',
@@ -437,8 +437,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
 
   it: {
-    title: 'Ogni Chiave Privata Bitcoin',
-    subtitle: 'Dimostrazione educativa della generazione di chiavi Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Nel caso tu perda il tuo',
     educationalPurpose: 'Solo per scopi educativi',
     viewSource: 'Visualizza codice sorgente',
     language: 'Lingua',
@@ -496,8 +496,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Fatto'
   },
   hu: {
-  title: 'Minden Bitcoin privát kulcs',
-  subtitle: 'Oktatási bemutató a Bitcoin kulcsgenerálásról',
+  title: 'Every BTC Key Dot Com',
+  subtitle: 'Ha esetleg kiszivárogtatnád a sajátodat',
   educationalPurpose: 'Csak oktatási célokra',
   viewSource: 'Forráskód megtekintése',
   language: 'Nyelv',
@@ -555,8 +555,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   done: 'Kész'
 },
   nl: {
-  title: 'Elke Bitcoin Privésleutel',
-  subtitle: 'Educatieve demonstratie van Bitcoin sleutelgeneratie',
+  title: 'Every BTC Key Dot Com',
+  subtitle: 'Voor het geval je de jouwe lekt',
   educationalPurpose: 'Alleen voor educatieve doeleinden',
   viewSource: 'Bekijk broncode',
   language: 'Taal',
@@ -614,8 +614,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   done: 'Gereed'
 },
   pl: {
-  title: 'Każdy klucz prywatny Bitcoin',
-  subtitle: 'Edukacyjna demonstracja generowania kluczy Bitcoin',
+  title: 'Every BTC Key Dot Com',
+  subtitle: 'Na wypadek, gdybyś ujawnił swój',
   educationalPurpose: 'Tylko do celów edukacyjnych',
   viewSource: 'Zobacz kod źródłowy',
   language: 'Język',
@@ -673,8 +673,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   done: 'Gotowe'
 },
   'pt-br': {
-    title: 'Todas as Chaves Privadas de Bitcoin',
-    subtitle: 'Demonstração educacional da geração de chaves Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Caso você vaze o seu',
     educationalPurpose: 'Somente para fins educacionais',
     viewSource: 'Ver código-fonte',
     language: 'Idioma',
@@ -732,8 +732,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Concluído'
   },
   ro: {
-    title: 'Fiecare Cheie Privată Bitcoin',
-    subtitle: 'Demonstrație educațională de generare a cheilor Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'În caz că îți scapi al tău',
     educationalPurpose: 'Doar în scopuri educaționale',
     viewSource: 'Vezi codul sursă',
     language: 'Limba',
@@ -792,8 +792,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
   
   sl: {
-    title: 'Vsak Bitcoin Zasebni Ključ',
-    subtitle: 'Izobraževalna demonstracija generiranja Bitcoin ključev',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Če slučajno izdaš svojega',
     educationalPurpose: 'Samo za izobraževalne namene',
     viewSource: 'Poglej izvorno kodo',
     language: 'Jezik',
@@ -852,8 +852,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
   
   sr: {
-    title: 'Сваки Bitcoin Приватни Кључ',
-    subtitle: 'Образовна демонстрација генерисања Bitcoin кључева',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'U slučaju da otkriješ svoj',
     educationalPurpose: 'Само у образовне сврхе',
     viewSource: 'Прикажи изворни код',
     language: 'Језик',
@@ -912,8 +912,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
   
   sv: {
-    title: 'Varje Bitcoin Privat Nyckel',
-    subtitle: 'Utbildningsdemonstration av Bitcoin nyckelgenerering',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Ifall du råkar läcka din',
     educationalPurpose: 'Endast för utbildningsändamål',
     viewSource: 'Visa källkod',
     language: 'Språk',
@@ -972,8 +972,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
   
   tr: {
-    title: 'Her Bitcoin Özel Anahtarı',
-    subtitle: 'Bitcoin anahtar üretiminin eğitim amaçlı gösterimi',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Kendi bilgini sızdırırsan diye',
     educationalPurpose: 'Sadece eğitim amaçlıdır',
     viewSource: 'Kaynak kodunu görüntüle',
     language: 'Dil',
@@ -1031,8 +1031,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Tamam'
   },
   el: {
-    title: 'Κάθε Ιδιωτικό Κλειδί Bitcoin',
-    subtitle: 'Εκπαιδευτική επίδειξη δημιουργίας κλειδιών Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Σε περίπτωση που διαρρεύσεις το δικό σου',
     educationalPurpose: 'Μόνο για εκπαιδευτικούς σκοπούς',
     viewSource: 'Προβολή πηγαίου κώδικα',
     language: 'Γλώσσα',
@@ -1090,8 +1090,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Έτοιμο'
   },
   bg: {
-    title: 'Всеки частен ключ на Биткойн',
-    subtitle: 'Образователна демонстрация на генериране на Биткойн ключове',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'В случай че изтечеш своя',
     educationalPurpose: 'Само за образователни цели',
     viewSource: 'Преглед на изходния код',
     language: 'Език',
@@ -1149,8 +1149,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Готово'
   },
   ru: {
-    title: 'Каждый приватный ключ Биткойн',
-    subtitle: 'Образовательная демонстрация генерации ключей Биткойн',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'На случай, если ты сольёшь свой',
     educationalPurpose: 'Только для образовательных целей',
     viewSource: 'Посмотреть исходный код',
     language: 'Язык',
@@ -1208,8 +1208,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Готово'
   },
   uk: {
-    title: 'Кожен приватний ключ Bitcoin',
-    subtitle: 'Освітня демонстрація генерації ключів Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'На випадок, якщо ти зіллєш свій',
     educationalPurpose: 'Лише для освітніх цілей',
     viewSource: 'Переглянути код',
     language: 'Мова',
@@ -1267,8 +1267,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Готово'
   },
   hy: {
-    title: 'Բոլոր Bitcoin գաղտնի բանալիները',
-    subtitle: 'Bitcoin բանալուների ստեղծման ուսուցողական ցուցադրություն',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'Եթե քոնը արտահոսի',
     educationalPurpose: 'Միայն ուսուցողական նպատակներով',
     viewSource: 'Դիտել աղբեքոդը',
     language: 'Լեզու',
@@ -1326,8 +1326,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'Ավարտված'
   },
   ar: {
-    title: 'كل مفاتيح البيتكوين الخاصة',
-    subtitle: 'عرض تعليمي لإنشاء مفاتيح البيتكوين',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'في حال سربت خاصتك',
     educationalPurpose: 'للأغراض التعليمية فقط',
     viewSource: 'عرض الشيفرة المصدرية',
     language: 'اللغة',
@@ -1385,8 +1385,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'تم'
   },
   fa: {
-    title: 'تمام کلیدهای خصوصی بیت‌کوین',
-    subtitle: 'نمایش آموزشی تولید کلیدهای بیت‌کوین',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'در صورتی که اطلاعات خودت لو بره',
     educationalPurpose: 'فقط برای اهداف آموزشی',
     viewSource: 'مشاهدهٔ کد منبع',
     language: 'زبان',
@@ -1444,8 +1444,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'تمام'
   },
   he: {
-    title: 'כל מפתחות ה‑Bitcoin הפרטיים',
-    subtitle: 'הדגמה חינוכית של יצירת מפתחות Bitcoin',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'למקרה שתדליף את שלך',
     educationalPurpose: 'לשימוש חינוכי בלבד',
     viewSource: 'הצג קוד מקור',
     language: 'שפה',
@@ -1503,8 +1503,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'סיום'
   },
   hi: {
-    title: 'हर बिटकॉइन प्राइवेट की',
-    subtitle: 'बिटकॉइन की जेनरेशन का शैक्षिक प्रदर्शन',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'अगर तुमने अपनी जानकारी लीक कर दी हो',
     educationalPurpose: 'केवल शैक्षिक उद्देश्यों के लिए',
     viewSource: 'सोर्स कोड देखें',
     language: 'भाषा',
@@ -1563,8 +1563,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
 
   ko: {
-    title: '모든 비트코인 개인키',
-    subtitle: '비트코인 키 생성의 교육적 시연',
+    title: 'Every BTC Key Dot Com',
+    subtitle: '당신의 것이 유출될 경우를 대비해서',
     educationalPurpose: '교육 목적으로만 사용',
     viewSource: '소스 코드 보기',
     language: '언어',
@@ -1623,8 +1623,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   },
 
   km: {
-    title: 'គ្រប់គីឯកជនប៊ីតកូញ',
-    subtitle: 'ការបង្ហាញអប់រំនៃការបង្កើតគីប៊ីតកូញ',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'បើសិនជាអ្នកបញ្ចេញអ្វីខ្លួនឯង',
     educationalPurpose: 'សម្រាប់គោលបំណងអប់រំប៉ុណ្ណោះ',
     viewSource: 'មើលកូដប្រភព',
     language: 'ភាសា',
@@ -1682,8 +1682,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: 'រួចរាល់'
   },
   ja: {
-    title: 'すべてのビットコイン秘密鍵',
-    subtitle: 'ビットコイン鍵生成の教育的デモンストレーション',
+    title: 'Every BTC Key Dot Com',
+    subtitle: 'あなたが自分のを漏らした場合に備えて',
     educationalPurpose: '教育目的のみで使用してください',
     viewSource: 'ソースコードを見る',
     language: '言語',
@@ -1741,8 +1741,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
     done: '完了'
   },
   'zh-cn': {
-  title: '所有比特币私钥',
-  subtitle: '比特币密钥生成的教育演示',
+    title: 'Every BTC Key Dot Com',
+    subtitle: '以防你泄露了自己的',
   educationalPurpose: '仅供教育用途',
   viewSource: '查看源代码',
   language: '语言',
@@ -1800,8 +1800,8 @@ export const translations: Record<Language, Record<TranslationKey, string>> = {
   done: '完成'
 },
 'zh-tw': {
-  title: '所有比特幣私鑰',
-  subtitle: '比特幣金鑰生成的教學示範',
+  title: 'Every BTC Key Dot Com',
+  subtitle: '以防你洩露了自己',
   educationalPurpose: '僅供教學用途',
   viewSource: '查看原始碼',
   language: '語言',

@@ -88,10 +88,11 @@ export function KeyEntry({ bitcoinKey, index, onCheckBalance }: KeyEntryProps) {
         onClick={handleExpand}
       >
         <div className="flex items-start space-x-2 sm:space-x-3 flex-1 min-w-0">
+          {/* 
           <span className="text-sm text-gray-400 dark:text-gray-500 font-mono w-6 sm:w-8 text-right flex-shrink-0 mt-0.5">
             {String(index).padStart(2, '0')}
           </span>
-          
+          */}
           <div className="flex items-start space-x-1 sm:space-x-2 flex-shrink-0 mt-0.5">
             {isExpanded ? (
               <ChevronDown className="w-4 h-4 text-gray-400 dark:text-gray-500" />

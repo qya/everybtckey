@@ -48,7 +48,7 @@ export function SearchBar({ searchTerm, onSearchChange, totalKeys, filteredKeys,
         )}
       </div>
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mt-2 gap-2 text-sm text-gray-500 dark:text-gray-400">
-        <span className="break-words">
+        <span className="break-words text-xs sm:text-sm">
           {searchTerm
             ? searchLoading
               ? `${t('searchingThrough')} ${formatLargeNumber(totalKeys)} ${t('totalKeys')}...`
@@ -57,7 +57,7 @@ export function SearchBar({ searchTerm, onSearchChange, totalKeys, filteredKeys,
           }
         </span>
         {searchTerm && (
-          <div className="flex items-center space-x-3 flex-shrink-0">
+          <div className="flex items-center space-x-2 sm:space-x-3 flex-shrink-0">
             {searchTerm.length < 3 && (
               <span className="text-orange-600 dark:text-orange-400 text-xs">
                 {t('enterMinChars')}
@@ -65,7 +65,7 @@ export function SearchBar({ searchTerm, onSearchChange, totalKeys, filteredKeys,
             )}
             <button
               onClick={() => onSearchChange('')}
-              className="text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 font-medium whitespace-nowrap"
+              className="text-orange-600 dark:text-orange-400 hover:text-orange-700 dark:hover:text-orange-300 font-medium whitespace-nowrap text-xs sm:text-sm"
             >
               {t('clearSearch')}
             </button>
@@ -77,7 +77,7 @@ export function SearchBar({ searchTerm, onSearchChange, totalKeys, filteredKeys,
           <div className="flex items-start space-x-2">
             <div className="w-2 h-2 bg-green-500 rounded-full mt-1.5 flex-shrink-0"></div>
             <div className="min-w-0">
-              <span className="text-green-700 dark:text-green-400 font-medium break-words">
+              <span className="text-green-700 dark:text-green-400 font-medium break-words text-xs sm:text-sm">
                 {t('foundInDatabase')} {formatLargeNumber(filteredKeys)} {t('foundInDatabase')}
               </span>
               <p className="text-green-600 dark:text-green-500 text-xs mt-1">
